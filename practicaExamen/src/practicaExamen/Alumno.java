@@ -27,6 +27,7 @@ public class Alumno {
 		
 		alumnos.add(alumno2);
 		alumnos.add(alumno1);
+
 		
 		for(Alumno alumno : alumnos){
 		
