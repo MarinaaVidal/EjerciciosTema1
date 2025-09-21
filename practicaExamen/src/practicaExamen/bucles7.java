@@ -15,6 +15,8 @@ public class bucles7 {
 	nombres.add("Julia");
 	nombres.add("Paula");
 	nombres.add("Magnet");
+	nombres.add("Marina");
+
 	
 	for(String nombre : nombres) {
 		System.out.println(nombre); // para de recorrerlo automáticamente cuando se ha leido toda la lista. 

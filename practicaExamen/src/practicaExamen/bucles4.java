@@ -22,7 +22,7 @@ Cuando se introduce la contraseña correcta, el programa imprime "Acceso concedi
 		String password = sc.next();
 		String contrasena="java123";
 	
-		// nos aseguramos de que almenos pida la contraseña una vez. 
+		// nos aseguramos de que almenos pida la contraseña una vez. por eso hacemos un do while
 		
 		
 		do {

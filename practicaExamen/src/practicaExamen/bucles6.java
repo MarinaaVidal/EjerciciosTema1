@@ -36,7 +36,7 @@ public class bucles6 {
 	
 	public int devuelveMayor() {
 		
-		int numMayor=0;
+		int numMayor=0; // lo inicializamos como un num pequeño para que todos sean mayores y se vayan comparando entre ellos. 
 		
 		for(int i=0;i<numeros.length;i++) {
 			if(numeros[i]>numMayor) {
@@ -44,7 +44,7 @@ public class bucles6 {
 			}
 		}
 		
-		return numMayor;
+		return numMayor; 
 	}
 
 	public int devuelveMenor() {

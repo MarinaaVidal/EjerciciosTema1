@@ -21,7 +21,7 @@ public class bucles {
 		System.out.println("el número introducido es par");
 	}
 	else {
-		System.out.println("El número introducido es impar");
+		System.out.println("El número introducido es impar"); 
 	}
 	
 	}

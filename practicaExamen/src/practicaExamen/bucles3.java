@@ -26,7 +26,7 @@ public class bucles3 {
 			
 			// si el numero introducido es distinto de 0 el bucle se va repitiendo y se va actualizando la suma. 
 		   
-			suma+=num;			
+			suma+=num; 	
 
 			num=sc.nextInt(); // ahora num pasa a ser otro (el que se vuelve a introducir). y se vuelve a evaluar el bucle. 
 			

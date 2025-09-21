@@ -18,7 +18,7 @@ public class bucles2 {
      switch(dia){
      
      case "lunes" : 
-    	 System.out.println("día laborable");
+    	 System.out.println("día laborable, entre semana");
     	 break;
     	 
      case "martes" : 

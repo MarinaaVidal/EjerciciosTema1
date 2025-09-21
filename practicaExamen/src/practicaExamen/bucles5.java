@@ -38,7 +38,7 @@ El programa debe mostrar el menú y pedir la opción al usuario hasta que elija 
 			
 
 			
-		} while(!menu.equals("salir"));
+		} while(!menu.equals("salir"));  // muy importante que aquí solo hay la condicion, no cosas entre llaves. 
 		
 		System.out.println("ha salido del menú");
 		

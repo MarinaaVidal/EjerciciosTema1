@@ -10,7 +10,7 @@ public class Fruta {
 		this.nombre=nombre;
 	}
 	
-	public static void main(String args[] ){
+	public static void main(String args[] ) {
 	   
 		List<Fruta> frutas = new ArrayList<>(); // creamos una lista que almacenará objetos fruta. 
 

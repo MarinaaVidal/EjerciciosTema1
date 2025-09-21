@@ -12,7 +12,7 @@ public class Alumno {
 	}
 	
 	
-	public boolean esAprobado(double nota) {
+	public boolean haAprobado(double nota) {
 		return (nota>=5.0);
 	}
 	
@@ -30,7 +30,7 @@ public class Alumno {
 		
 		for(Alumno alumno : alumnos){
 		
-		System.out.println("nombre: " + alumno.nombre + ", nota: " + alumno.nota + ", ha aprobado? " + alumno.esAprobado(alumno.nota));
+		System.out.println("nombre: " + alumno.nombre + ", nota: " + alumno.nota + ", ha aprobado? " + alumno.haAprobado(alumno.nota));
 			
 		}
 		

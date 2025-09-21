@@ -27,7 +27,7 @@ public class Coche {
 		Coche coche2 = new Coche("Mercedes", 280);
 		Coche coche3 = new Coche("Toyota", 180);
 		
-		 Coche [] coches = {coche1, coche2, coche3}; 
+		 Coche [] coches = {coche1, coche2, coche3};
 	
 		 for(int i=0; i<coches.length; i++) {
 		 System.out.println( "Marca: " + coches[i].getMarca() + ", Velocidad Máxima: " + coches[i].velMax );
