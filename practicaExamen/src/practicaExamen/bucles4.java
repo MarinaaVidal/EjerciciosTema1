@@ -27,7 +27,7 @@ Cuando se introduce la contraseña correcta, el programa imprime "Acceso concedi
 		
 		do {
 
-			System.out.println("por favor introduzca la contraseña");
+			System.out.println("por favor introduzca la contraseña, gracias");
 			password = sc.next(); // cada vez que vuelve a introducir la contraseña se actualiza el valor de password y vuelve a comparalo con la contraseña correcta. 
 			
 		}

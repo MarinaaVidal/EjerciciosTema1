@@ -29,7 +29,7 @@ El programa debe mostrar el menú y pedir la opción al usuario hasta que elija 
 				System.out.println("la opción 1 ha sido seleccionada");
 			}
 			else if(menu.equals("2")) {
-				System.out.println("la opción 2 ha sido seleccionada");
+				System.out.println("la opción 2 ha sido seleccionada!");
 			}
 			
 			System.out.println("seleccione una de las siguientes opciones: Opcion 1, Opcion 2, salir"); // esto tiene que ir antes del Scanner para que vuelva a evaluar el nuevo valor introducido. 

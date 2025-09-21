@@ -34,7 +34,7 @@ public class bucles2 {
             	 break;
             	 
      case "viernes" : 
-                	 System.out.println("día laborable");
+                	 System.out.println("día laborable, entre semana");
                 	 break;
               
      case "sábado" : 

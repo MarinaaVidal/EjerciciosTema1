@@ -23,7 +23,7 @@ public class Fruta {
 		frutas.add(fruta3);
 		
 		for(Fruta fruta : frutas) {
-			System.out.println("nombre: "+ fruta.nombre + ", color: " + fruta.color);
+			System.out.println("Nombre: "+ fruta.nombre + ", color: " + fruta.color);
 		}
 		
 	}

@@ -13,7 +13,7 @@ public class bucles {
 	int numero = sc.nextInt();
 	
 	// un número es par si al dividir entre 2 su resto es 0. 
-	// un número es impar si al dividir entre 2 su resto es 1. 
+	// un número es impar si al dividir entre 2 su resto es 1.  Usamos el operador módulo %
 		
 	
 	if(numero%2==0) {

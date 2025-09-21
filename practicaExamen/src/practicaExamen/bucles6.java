@@ -65,7 +65,7 @@ public class bucles6 {
 	public static void main (String args[]) {
 		
 	try {
-		System.out.println(ejemplo.devuelveSuma());
+		System.out.println("la suma es:" + ejemplo.devuelveSuma());
 		System.out.println(ejemplo.devuelveMayor());
 		System.out.println(ejemplo.devuelveMenor());
 	} catch (Exception e) {

@@ -16,6 +16,7 @@ public class bucles7 {
 	nombres.add("Paula");
 	nombres.add("Magnet");
 	nombres.add("Marina");
+	nombres.add("Paco");
 
 	
 	for(String nombre : nombres) {

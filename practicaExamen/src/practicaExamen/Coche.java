@@ -30,7 +30,7 @@ public class Coche {
 		 Coche [] coches = {coche1, coche2, coche3};
 	
 		 for(int i=0; i<coches.length; i++) {
-		 System.out.println( "Marca: " + coches[i].getMarca() + ", Velocidad Máxima: " + coches[i].velMax );
+		 System.out.println( "Marca: " + coches[i].getMarca() + ", velocidad máxima: " + coches[i].velMax );
 		 }
 		 
 	}

@@ -30,7 +30,7 @@ public class Alumno {
 		
 		for(Alumno alumno : alumnos){
 		
-		System.out.println("nombre: " + alumno.nombre + ", nota: " + alumno.nota + ", ha aprobado? " + alumno.haAprobado(alumno.nota));
+			System.out.println("nombre: " + alumno.nombre + ", nota: " + alumno.nota + ", ha aprobado? " + alumno.haAprobado(alumno.nota));
 			
 		}
 		
