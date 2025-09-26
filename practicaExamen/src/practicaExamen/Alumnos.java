@@ -86,6 +86,10 @@ public class Alumnos {
 	
 	}
 	
+	public Alumnos() {
+		
+	}
+	
 	public String toString() {
 		return "El nombre es: " + this.nombre + "la edad del alumno: "+ this.edad;
 	}
@@ -105,11 +109,15 @@ public class Alumnos {
 	
 	
 	public static void eliminarAlumno(List<Alumnos> alumnos, String nombre) {
-            for(Alumnos alumno : alumnos) {
+           Alumnos alumnoEliminado = new Alumnos();
+           
+		for(Alumnos alumno : alumnos) {
 			if(alumno.nombre.equals(nombre)) {
-				alumnos.remove(alumno);
+				alumnoEliminado=alumno;
 			}
 	}
+		
+		alumnos.remove(alumnoEliminado);
 	
 	
 	}
